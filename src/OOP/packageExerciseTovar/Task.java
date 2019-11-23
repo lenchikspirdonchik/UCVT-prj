@@ -6,11 +6,11 @@ public class Task {
 
 	public static void main(String[] args) throws IOException {
 
-		//Mouse m1 = new Mouse();
+		Mouse m1 = new Mouse();
 		//m1.setRazmer();
 		//m1.setGodVypuska();
 
-
+		//System.out.println(m1.start.name);
 		System.out.println("Название\tКод\tРазмеры\t\tГод выпуска");
 		//System.err.println(m1.nazvanie + "\t" + m1.getKod() + "\t" + m1.getRazmer() + "\t\t" + m1.getGodVypuska());
 
