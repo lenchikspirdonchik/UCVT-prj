@@ -98,15 +98,14 @@ static ArrayList<Pokupka> pokupki=new ArrayList<>();
 			System.out.println(pokupki.get(i).date +"\t"+ pokupki.get(i).client.name);
 			System.out.println("Id товара\tНаименование\tЦена\t Кол-во\tСтоимость");
 			for (int j = 0; j <pokupki.get(i).products.size() ; j++) {
-				System.out.print(pokupki.get(i).products.get(j).id +"\t\t\t");
-				System.out.print(pokupki.get(i).products.get(j).name +"\t\t\t");
-				System.out.print(pokupki.get(i).products.get(j).price +"\t\t\t");
-				System.out.println(add.kolvos.get(i)+"\t\t\t");
-				int summ= (pokupki.get(i).products.get(j).price +add.kolvos.get(i));
-				System.out.print(summ);
+				System.out.print(pokupki.get(i).products.get(j).id + "\t\t\t");
+				System.out.print(pokupki.get(i).products.get(j).name + "\t\t\t");
+				System.out.print(pokupki.get(i).products.get(j).price + "\t\t\t");
+				System.out.print(pokupki.get(i).kolvos.get(j) + "\t\t\t");
+				System.out.print(pokupki.get(i).products.get(j).price + pokupki.get(i).kolvos.get(j) + "\n");
 			}
 		}
-
+//1 123 1 1 2 1 2 12 2 1
 
 
 

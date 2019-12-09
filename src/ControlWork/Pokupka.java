@@ -18,4 +18,5 @@ public class Pokupka {
         products.add(product);
         kolvos.add(kolvo);
     }
+
 }

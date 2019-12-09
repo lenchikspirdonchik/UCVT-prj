@@ -49,7 +49,7 @@ Print(dogs);
 
 
 	}
-static void Print (ArrayList <String> haha){
+private static void Print (ArrayList <String> haha){
 	for (int i = 0; i < haha.size() ; i++) {
 		System.out.println(haha.get(i));
 	}
